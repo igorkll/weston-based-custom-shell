@@ -39,6 +39,6 @@ git clone https://gitlab.freedesktop.org/wayland/weston.git
 cd weston
 git checkout 15.0.0
 
-meson setup build/ -Dbackend-vnc=false -Dcolor-management-lcms=false -Dbackend-pipewire=false -Dbackend-rdp=false -Dremoting=false -Dpipewire=false
+meson setup build/ -Dbackend-vnc=false -Dcolor-management-lcms=false -Dbackend-pipewire=false -Dbackend-rdp=false -Dremoting=false -Dpipewire=false -Dtests=false
 ninja -C build/
 ninja -C build/ install
